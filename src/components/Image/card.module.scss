@@ -1,0 +1,33 @@
+.card{
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px 10px 50px;
+  margin: 10px;
+  background-color: white;
+  position: relative;
+
+  &:hover{
+    transition: 0.3s;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,.5);
+  }
+
+  .card_title{
+    font-size: 20px;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+  }
+  .button_container{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    span{
+      color: red;
+    }
+    button{
+      padding: 3px 10px;
+      margin: 100px 10px 0 0;
+      cursor: pointer;
+    }
+  }
+
+}

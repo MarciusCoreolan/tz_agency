@@ -1,0 +1,41 @@
+.header{
+  width: 100%;
+  padding: 20px 0;
+  background-color: #527dcc;
+  color: white;
+  box-shadow: 0 5px 5px rgba(0,0,0,.1);
+  position: relative;
+
+  h2{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .header_filter_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .header_filter{
+      font-size: 25px;
+      border-radius: 50%;
+      border: 1px solid #ffffff;
+      padding: 3px 10px;
+      cursor: pointer;
+      margin: 5px;
+
+      &:hover{
+        border: 1px solid #527dcc;
+        background-color: white;
+        color: #527dcc;
+      }
+    }
+  }
+  .header_down_btn{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    button{
+      padding: 5px 10px;
+    }
+  }
+
+}

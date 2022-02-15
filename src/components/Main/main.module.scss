@@ -1,0 +1,44 @@
+.main{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #527dcc;
+  padding: 10px 0;
+  position: relative;
+
+  .page{
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    &:hover{
+      color: #527dcc;
+      background-color: #fff;
+    }
+  }
+  .active{
+    color: #527dcc;
+    background-color: #fff;
+  }
+  .button_up{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    button{
+      padding: 5px 10px;
+    }
+  }
+}

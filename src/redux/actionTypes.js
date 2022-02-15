@@ -1,0 +1,9 @@
+export const BASE_URL = "http://jsonplaceholder.typicode.com/photos";
+export const GET_IMAGES_START = "get/images/start";
+export const GET_IMAGES_SUCCESSES = "get/images/successes";
+export const GET_IMAGES_ERROR = "get/images/error";
+export const DELETE_IMAGE = "delete/image/successes";
+export const CARD_OPEN = "card/open";
+export const CARD_CLOSE = "card/close";
+export const SELECT_PAGE = "select/page";
+export const FILTER_IMAGES = "filter/images";
